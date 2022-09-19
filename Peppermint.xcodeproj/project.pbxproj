@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F5AF531D28D7AE6800BB4B10 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AF531C28D7AE6800BB4B10 /* main.swift */; };
+		F5AF532528D7FD0200BB4B10 /* CaffeineKit in Frameworks */ = {isa = PBXBuildFile; productRef = F5AF532428D7FD0200BB4B10 /* CaffeineKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5AF532528D7FD0200BB4B10 /* CaffeineKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +80,9 @@
 			dependencies = (
 			);
 			name = Peppermint;
+			packageProductDependencies = (
+				F5AF532428D7FD0200BB4B10 /* CaffeineKit */,
+			);
 			productName = Peppermint;
 			productReference = F5AF531928D7AE6800BB4B10 /* Peppermint */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +111,9 @@
 				Base,
 			);
 			mainGroup = F5AF531028D7AE6800BB4B10;
+			packageReferences = (
+				F5AF532328D7FD0200BB4B10 /* XCRemoteSwiftPackageReference "CaffeineKit" */,
+			);
 			productRefGroup = F5AF531A28D7AE6800BB4B10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -284,6 +292,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5AF532328D7FD0200BB4B10 /* XCRemoteSwiftPackageReference "CaffeineKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrr6/CaffeineKit";
+			requirement = {
+				kind = revision;
+				revision = a92b664343adb16ca6dabc20b20665c1edc4fe41;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5AF532428D7FD0200BB4B10 /* CaffeineKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5AF532328D7FD0200BB4B10 /* XCRemoteSwiftPackageReference "CaffeineKit" */;
+			productName = CaffeineKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5AF531128D7AE6800BB4B10 /* Project object */;
 }

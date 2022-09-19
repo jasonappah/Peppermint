@@ -1,0 +1,13 @@
+{
+  "pins" : [
+    {
+      "identity" : "caffeinekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jrr6/CaffeineKit",
+      "state" : {
+        "revision" : "a92b664343adb16ca6dabc20b20665c1edc4fe41"
+      }
+    }
+  ],
+  "version" : 2
+}
